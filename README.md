@@ -39,6 +39,8 @@ o	Production-grade Kubernetes clusters
 o	High availability & disaster recovery
 o	Large-scale cloud deployments (AWS EKS, GKE, AKS, On-Prem K8s)
 
+
+____________________________________________________________________________________________________________________________________________________________________________
 **Controller**                                                             **Purpose**                                               **Use Case**
 Deployment	                                            Declarative Pod updates and rollbacks	                        Scalable and update-friendly applications
 ReplicationController	                     Maintain a fixed number of Pod replicas(uses equaliry based selectors)	          Basic replication needs
