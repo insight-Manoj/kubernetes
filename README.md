@@ -42,17 +42,17 @@ o	Large-scale cloud deployments (AWS EKS, GKE, AKS, On-Prem K8s)
 
 ____________________________________________________________________________________________________________________________________________________________________________
 **Controller**                                                             **Purpose**                                               **Use Case**
-Deployment	                                            Declarative Pod updates and rollbacks	                        Scalable and update-friendly applications
-ReplicationController	                     Maintain a fixed number of Pod replicas(uses equaliry based selectors)	          Basic replication needs
-ReplicaSet	                          Advanced replication with set based selectors	                                  Underlying Deployment management
-StatefulSet	                              Manage stateful apps with unique Pods                                          	Databases, stateful services
-DaemonSet	                                        One Pod per node	                                                           Cluster-wide services
-Job	                                                 Execute a task to completion	                                          Batch jobs or one-time tasks
-CronJob	                                           Scheduled task execution	                                                          Periodic jobs
-HPA	                                                    Scale Pods based on metrics	                                                 Autoscaling
-Custom Controllers	                                Extend Kubernetes functionality	                                               Custom workflows
+**Deployment**	                                            Declarative Pod updates and rollbacks	                        Scalable and update-friendly applications
+**ReplicationController**	                     Maintain a fixed number of Pod replicas(uses equaliry based selectors)	          Basic replication needs
+**ReplicaSet**	                          Advanced replication with set based selectors	                                  Underlying Deployment management
+**StatefulSet**	                              Manage stateful apps with unique Pods                                          	Databases, stateful services
+**DaemonSet**	                                        One Pod per node	                                                           Cluster-wide services
+**Job**	                                                 Execute a task to completion	                                          Batch jobs or one-time tasks
+**CronJob**	                                           Scheduled task execution	                                                          Periodic jobs
+**HPA**	                                                    Scale Pods based on metrics	                                                 Autoscaling
+**Custom Controllers**	                                Extend Kubernetes functionality	                                               Custom workflows
 ____________________________________________________________________________________________________________________________________________________________________________
-Ingress	                           component that manages external access to services within a                    Ingress Controller = API Gateway for Kubernetes Services.                                     Kubernetes cluster, typically via HTTP(S) routes. It allows                                                                                                               controlled traffic routing, load balancing, SSL termination, and security for services.	
+**Ingress**	                           component that manages external access to services within a         Ingress Controller = API Gateway for Kubernetes Services.                                 		    Kubernetes cluster, typically via HTTP(S) routes. It allows                                                                                                controlled traffic routing, load balancing, SSL termination, and security for services.	
 
 Manages External Access → Routes traffic from outside the cluster to services inside.
 ✔ Load Balancing → Distributes traffic across multiple pods.
@@ -60,7 +60,7 @@ Manages External Access → Routes traffic from outside the cluster to services 
 ✔ Path-based & Host-based Routing → Directs traffic to different services based on URL paths or domains.
 ✔ Security & Authentication → Supports OAuth, JWT, and Web Application Firewall (WAF).
 ✔ Custom Rules & Annotations → Allows flexible configurations per application.
-____________________________________________________________________________________________________________________________________________________________________________
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Ingress Controller	Best For
 Nginx Ingress	General-purpose, highly configurable
 Traefik	Lightweight, dynamic routing, supports gRPC
