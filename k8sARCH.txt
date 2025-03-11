@@ -1,0 +1,10 @@
+master node
+etcd
+controllmanager
+kubeapi
+scheduler
+
+worker node
+kubelet
+kubeproxy
+pod, pod, pod, pod
