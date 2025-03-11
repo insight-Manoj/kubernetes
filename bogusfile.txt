@@ -1,0 +1,5 @@
+total 8
+-rw-rw-r-- 1 ubuntu ubuntu 7403 Mar  5 03:29 README.md
+-rw-rw-r-- 1 ubuntu ubuntu    0 Mar 10 10:54 deployment.yml
+-rw-rw-r-- 1 ubuntu ubuntu    0 Mar 11 07:53 bogusfile.txt
+-rw-rw-r-- 1 ubuntu ubuntu    0 Mar 11 07:54 deploy.txt
